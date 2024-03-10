@@ -45,7 +45,9 @@ Com o intuito de simplificar os testes da aplicação, nesse caso em específico
 
 ### Criação de Times
 
-- **POST /api/teams/**: Cria um novo time de Pokémon.
+- **POST /api/teams/**
+
+ Cria um novo time de Pokémon.
 
   **Input**:
   ```json
@@ -64,7 +66,9 @@ Com o intuito de simplificar os testes da aplicação, nesse caso em específico
   ```
   
 
-- **GET /api/teams/**: Retorna todos os times registrados.
+- **GET /api/teams/**
+
+Retorna todos os times registrados.
 
   **Output**:
   ```json
@@ -106,7 +110,9 @@ Com o intuito de simplificar os testes da aplicação, nesse caso em específico
   }
   ```
     
-- **GET /api/teams/{user}**: Busca os times registrados por determinado nome de usuário.
+- **GET /api/teams/{user}**
+
+Busca os times registrados por determinado nome de usuário.
 
   **Output**:
   ```json
@@ -156,7 +162,9 @@ Com o intuito de simplificar os testes da aplicação, nesse caso em específico
   ]
   ```
     
-- **GET /api/teams/id/{id}**: Busca um time por sua ID única.
+- **GET /api/teams/id/{id}**
+
+Busca um time por sua ID única.
 
   **Output**:
   ```json
